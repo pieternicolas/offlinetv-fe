@@ -3,10 +3,14 @@ import { Route, Switch } from 'react-router-dom';
 
 import 'assets/js/fontawesome-all.min.js';
 
+import Home from 'containers/Home';
+
 
 const App = (props) => {
   return (
-    <Switch></Switch>
+    <Switch>
+    	<Route path="/" component={Home}></Route>
+    </Switch>
   )
 };
 

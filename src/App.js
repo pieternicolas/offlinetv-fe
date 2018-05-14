@@ -7,11 +7,11 @@ import Home from 'containers/Home';
 
 
 const App = (props) => {
-  return (
-    <Switch>
-    	<Route path="/" component={Home}></Route>
-    </Switch>
-  )
+	return (
+	<Switch>
+		<Route path="/" component={Home}></Route>
+	</Switch>
+	)
 };
 
 
